@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color:whitesmoke;
+}
+.design {
+    color: burlywood;
+    text-align: center;
+}
+.align{
+    width: 30%;
+    background-color: forestgreen;
+    padding: 3rem;
+    color:khaki;
+    margin: 0 auto;
+    border: 3px solid sienna;
+    border-radius: 20px;
+}
+#calculate{
+    padding: 5px 10px;
+    background-image: linear-gradient(brown, tomato);
+    color:whitesmoke;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gold;
+
+}
