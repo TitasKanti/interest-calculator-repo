@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+.design {
+    color: rgb(224, 187, 224);
+    text-align: center;
+}
+.align{
+    width: 30%;
+    background-color: purple;
+    padding: 3rem;
+    color:khaki;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.calculation{
+    padding: 10px 30px;
+    background-image: linear-gradient(skyblue, blue);
+    color:ivory;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gold;
+}
+.calculation:hover{
+    padding: 10px 30px;
+    background-image: linear-gradient(blue, skyblue);
+    color:lightpink;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gold;
+}

@@ -6,20 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interest Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <h1>Interest Calculation</h1>
-    <section>
-        <h5>Enter first date</h5>
+    <h1 class="design">Interest Calculator</h1>
+    <section class="align">
+        <h3>Enter Start Date:</h3>
         <input type="text" name="1st date" placeholder="mm/dd/year" id="first-date">
         <br>
-        <h5>Enter last date</h5>
+        <h3>Enter End Date:</h3>
         <input type="text" name="last date" placeholder="mm/dd/year" id="last-date">
         <br>
-        <h5>Enter Principle amount</h5>
+        <h3>Enter Principle amount</h3>
         <input type="text" name="amount" placeholder="amount in BDT" id="amount">
-        <button id="calculate" type="submit">Calculate</button>
+        <br> <br>
+        <button id="calculate" class="calculation" type="submit">Calculate</button>
+        <button onclick="reload()" class="calculation" type="submit">Refresh</button>
     </section>
     <div id="result">
 
